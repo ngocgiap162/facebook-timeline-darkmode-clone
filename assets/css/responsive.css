@@ -90,6 +90,7 @@
 
 /* mobile */
 @media (max-width: 561px) {
+    .create_room_btn2,
     .user,
     .search input,
     .main_right,
@@ -115,5 +116,8 @@
     }
     .create_story_btn{
         right: 8px;
+    }
+    .story{
+        margin: 0;
     }
 }
