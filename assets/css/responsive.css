@@ -106,9 +106,14 @@
     }
     .main_center{
         width: 100%;
+        padding-left: 0;
+        padding-right: 0;
     }
     .story_item_5,
     .story_item_6{
         display: none;
+    }
+    .create_story_btn{
+        right: 8px;
     }
 }
