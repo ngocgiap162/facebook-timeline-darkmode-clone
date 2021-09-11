@@ -1,0 +1,114 @@
+/* pc */
+@media (min-width: 1921px) {
+    .container{
+        max-width: 1464px;
+        margin: 0 auto;
+    }
+}
+
+
+/* pc */
+@media (min-width: 1100px) and (max-width: 1259px) {
+    .user,
+    .search input{
+        display: none;
+    }
+    .story_item_6{
+        display: none;
+    }
+    .main_left,
+    .main_right {
+        max-width: 300px;
+    }
+}
+
+/* pc */
+@media (min-width: 900px) and (max-width: 1099px) {
+    .user,
+    .search input,
+    .header_gaming_btn,
+    .main_left{
+        display: none;
+    }
+    .header_menu{
+        display: flex;
+    }
+    .main_center{
+        width: 67%;
+    }
+    .main_right{
+        width: 33%;
+    }
+    .story_item_6{
+        display: none;
+    }
+   
+}
+
+
+/* tablet */
+@media (min-width: 700px) and (max-width: 899px) {
+    .user,
+    .search input,
+    .header_gaming_btn,
+    .main_right,
+    .main_left{
+        display: none;
+    }
+    .header_menu{
+        display: flex;
+    }
+    .main_center{
+        width: 100%;
+    }
+}
+
+
+/* mobile */
+@media (min-width: 562px) and (max-width: 699px) {
+    .user,
+    .search input,
+    .main_right,
+    .header_center_btn,
+    .main_left{
+        display: none;
+    }
+    .header_menu{
+        display: flex;
+    }
+    .header_center{
+        flex: 1;
+        margin-left: 20px;
+    }
+    .main_center{
+        width: 100%;
+    }
+    .story_item_6{
+        display: none;
+    }
+}
+
+/* mobile */
+@media (max-width: 561px) {
+    .user,
+    .search input,
+    .main_right,
+    .header_center_btn,
+    .main_left{
+        display: none;
+    }
+    .header_menu{
+        display: flex;
+    }
+    .header_center{
+        flex: 1;
+        margin-left: 20px;
+    }
+    .main_center{
+        width: 100%;
+    }
+    .story_item_5,
+    .story_item_6{
+        display: none;
+    }
+}
